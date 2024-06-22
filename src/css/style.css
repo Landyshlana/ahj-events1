@@ -1,6 +1,7 @@
 * {
+    cursor: none;
     box-sizing: border-box;
-}
+  }
 .panel {
     text-align: center;
 }
@@ -23,13 +24,14 @@
 }
 .goblin { 
     background-size: cover; 
-    background-image: url(../img/goblin.png);
+    background-image: url('../img/goblin.png');
     background-repeat: no-repeat;
     height:100px; 
 } 
 .cursor {
     height: 100px;
-    background-image: url(../img/hammer.png);
+    width:100px;
+    background-image: url('../img/hummer.png');
     background-repeat: no-repeat;
     background-size: contain;
     pointer-events: none;

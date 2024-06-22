@@ -54,9 +54,3 @@ closeGame() {
 	this.count.victory.innerText = 0;
 }
 }
-const mouseCursor = document.querySelector('.cursor');
-
-function cursor(event) {
-	mouseCursor.style.top = `${event.pageY}px`;
-	mouseCursor.style.left = `${event.pageX}px`;
-}
