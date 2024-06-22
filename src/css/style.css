@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.panel {
+    text-align: center;
+}
+.game { 
+    display: grid;
+    margin:auto;
+    width:450px;
+    height:450px;
+    border: 2px solid rgba(82, 29, 179, 0.5); 
+    border-radius: 15px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.hole {
+    border: 1px dashed; 
+    border-radius: 100px; 
+    background-color: rgba(82, 29, 179, 0.5); 
+    text-align: center; 
+}
+.goblin { 
+    background-size: cover; 
+    background-image: url(../img/goblin.png);
+    background-repeat: no-repeat;
+    height:100px; 
+} 
+.cursor {
+    height: 100px;
+    background-image: url(../img/hammer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+  }
